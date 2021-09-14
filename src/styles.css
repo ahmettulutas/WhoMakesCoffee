@@ -21,3 +21,7 @@
   margin: auto;
   font-size: 19px;
 }
+button:hover{
+  transform:scale(1.1);
+  background-color:rgb(88, 173, 125);
+}
