@@ -1,0 +1,23 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.mainDiv {
+  text-align: center;
+  background-color: rgb(245, 108, 29);
+  color: rgba(83, 39, 33, 0.842);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+.button {
+  border-radius: 20px;
+  width: 100px;
+  height: 50px;
+  align-items: center;
+  margin: auto;
+  font-size: 19px;
+}
