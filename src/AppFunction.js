@@ -1,8 +1,8 @@
-import { React,  useState } from "react";
+import { React, useState } from "react";
 import "./styles.css";
 export default function App() {
   const [skorlar, setSkorlar] = useState({ TANSU: 0, AHMET: 0, YAVUZ: 0 });
-  const [sonuc, setSonuc] = useState("LET'S GO");
+  const [sonuc, setSonuc] = useState(null);
   const findMax = (obj) => {
     const enBuyuk = Object.keys(obj).reduce((a, b) =>
       obj[a] > obj[b] ? a : b
@@ -29,13 +29,13 @@ export default function App() {
   return (
     <div className="mainDiv">
       <h1 style={{ fontSize: 60, position: "initial" }}>
-        {sonuc} wins !!!
+        {sonuc === null ? "LET'S GO :)" : `${sonuc} wins!!!`}
       </h1>
       <p style={{ fontSize: 30 }}>Tansu: {skorlar.TANSU}</p>
       <p style={{ fontSize: 30 }}>Ahmet: {skorlar.AHMET}</p>
-      <p style={{ fontSize: 30 }}>Yavuz: {skorlar.MELTEM}</p>
+      <p style={{ fontSize: 30 }}>Meltem: {skorlar.MELTEM}</p>
       <button className="button" onClick={handleClick}>
-        Click Me
+        Who Makes Coffee?
       </button>
     </div>
   );
