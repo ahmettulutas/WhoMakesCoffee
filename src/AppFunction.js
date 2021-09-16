@@ -29,7 +29,7 @@ export default function App() {
   return (
     <div className="mainDiv">
       <h1 style={{ fontSize: 60, position: "initial" }}>
-        {sonuc}
+        {sonuc} wins !!!
       </h1>
       <p style={{ fontSize: 30 }}>Tansu: {skorlar.TANSU}</p>
       <p style={{ fontSize: 30 }}>Ahmet: {skorlar.AHMET}</p>
