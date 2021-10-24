@@ -27,7 +27,9 @@ export default function App() {
   
 
   return (
-    <div className="mainDiv">
+    <div className="main-div">
+      <div className="flex-div">
+        <div className="round-scores-div">
       <h1>{result ? `${result} wins` : "LET'S GO"}  !!!</h1>
       <p>Tansu: {scores[0].TANSU}</p>
       <p>Ahmet: {scores[0].AHMET}</p>
@@ -35,7 +37,9 @@ export default function App() {
       <button className="button" onClick={handleClick}>
         Click Me
       </button>
-      <div>
+      </div>
+      <div className="table-div">
+        <h1>TOTAL SCORES</h1>
         <table>
           <tr>
           <th>Tansu</th>
@@ -48,6 +52,7 @@ export default function App() {
           <td>{scores[2].allScore}</td>
           </tr>
         </table>
+      </div>
       </div>
     </div>
   );
