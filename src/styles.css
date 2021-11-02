@@ -7,7 +7,6 @@
   position: fixed;
   font-family: "Press Start 2P", cursive;
   text-align: center;
-  color: rgba(83, 39, 33, 0.842);
   width: 100%;
   height: auto;
   top: 0;
@@ -19,41 +18,40 @@
   justify-content: center;
 }
 .flex-div {
-  opacity:0.82;
+  margin:2rem;
+  opacity: 0.75;
   border: 2px solid rgb(61, 55, 55);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width:80%;
-  max-width: 80%;
+  max-width: 100%;
+  width:90%;
+  height:auto;
   background-color: white;
-  height:90vh;
-
 }
 .round-scores-div {
-  max-width: 80%;
-  margin: 1rem auto;
-  padding: 10px;
+  max-width:80%;
+  padding: 5px;
   color: rgb(61, 55, 55);
 }
 .round-scores-div h1 {
   border: 5px solid rgb(61, 55, 55);
-  font-size: 2em;
+  font-size: 3.5vw;
   font-weight: normal;
-  padding: 1rem;
-  margin-top:3rem;
+  padding: 0.5rem;
+  margin:2rem;
 }
 .round-scores-div p {
-  font-size: 2vw;
+  font-size: 2.5vw;
 }
 .button {
   font-size: 100%;
   border-radius: 20px;
-  width: 70%;
+  width: 10vw;
   height: 50px;
   align-items: center;
-  margin: 2rem ;
+  margin: auto;
   cursor: pointer;
   min-width: 80px;
   font-family: "Press Start 2P", cursive;
@@ -64,7 +62,7 @@ button:hover {
 }
 .table-div {
   border: 2px solid rgb(61, 55, 55);
-  margin: 1rem;
+  margin: .5rem;
   display: flex;
   align-items: center;
   max-width: 90%;
@@ -83,4 +81,7 @@ button:hover {
   font-size: 2.5vw;
   border: 5px solid rgb(61, 55, 55);
   padding: 5px;
+}
+.table-div fieldset legend {
+  font-size: 3.5vw;
 }
